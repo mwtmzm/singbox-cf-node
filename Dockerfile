@@ -15,5 +15,5 @@ COPY site/ /srv/site/
 COPY sub-template.html /app/sub-template.html
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
-EXPOSE 3000
+EXPOSE 8080
 ENTRYPOINT ["/entrypoint.sh"]
